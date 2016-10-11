@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_clock"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <org.raphets.customview.view.ClockView
+        app:background_color="@color/colorAccent"
+        app:hour_num_color="@android:color/black"
+        app:hour_num_textsize="18dp"
+        app:hour_pointer_width="4dp"
+        app:minute_pointer_width="2.5dp"
+        app:second_pointer_width="1.5dp"
+        app:hour_pointer_color="@android:color/holo_blue_dark"
+        app:minute_pointer_color="@android:color/holo_green_light"
+        app:second_pointer_color="@android:color/holo_blue_bright"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

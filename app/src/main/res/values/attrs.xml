@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+          <!--时针宽度-->
+        <attr name="hour_pointer_width" format="dimension"/>
+          <!--时针颜色-->
+        <attr name="hour_pointer_color" format="color"/>
+          <!--分针宽度-->
+        <attr name="minute_pointer_width" format="dimension"/>
+          <!--分针颜色-->
+        <attr name="minute_pointer_color" format="color"/>
+          <!--秒针宽度-->
+        <attr name="second_pointer_width" format="dimension"/>
+          <!--秒针颜色-->
+        <attr name="second_pointer_color" format="color"/>
+            <!--时刻刻度颜色-->
+        <attr name="hour_scale_color" format="color"/>
+             <!--分刻刻度颜色-->
+        <attr name="minute_scale_color" format="color"/>
+           <!-- 时间刻度值颜色-->
+        <attr name="hour_num_color" format="color"/>
+            <!--时间刻度值字体大小-->
+        <attr name="hour_num_textsize" format="dimension"/>
+       <!-- 表盘背景-->
+        <attr name="background_color" format="color"/>
+    </declare-styleable>
+    
+</resources>
